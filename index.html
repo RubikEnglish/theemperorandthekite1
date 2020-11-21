@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class = "container">
-        <nav class = "nav-main">
+       <nav class = "nav-main">
             <img src="img/brand.png" alt="Rubik English Logo" class="nav-brand">
             <ul class="nav-menu show">
                 <li>MÉXICO BILING(ü)E</a>
@@ -38,10 +38,38 @@
                     <audio id="audioMusic">
                         <source src="Instrucciones.mp3" type="audio/mpeg">
                     </audio>
-                    <button onclick="bell()">Instrucciones</button>
+                    <button class="button button2" onclick="bell()" >Instrucciones</button>
                     <br/>
                     <br/>
                 </center>
+
+                <style>
+                    .button {
+                      border: none;
+                      color: white;
+                      padding: 2px 5px;
+                      text-align: center;
+                      text-decoration: none;
+                      display: inline-block;
+                      font-size: 14px;
+                      margin: 1px 1px;
+                      cursor: pointer;
+                    }
+                    
+                    .button1 {background-color: #4CAF50;} /* Green */
+                    .button2 {background-color: #008CBA;} /* Blue */
+                    </style>
+                    <!--</head>
+                    <body>
+                    
+                    <h1>The button element - Styled with CSS</h1>
+                    <p>Change the background color of a button with the background-color property:</p>-->
+                    
+                    <!--<button class="button button1">Green</button>
+                    <button class="button button2">Blue</button>-->
+
+
+
                 <img src="img/news1.jpg" alt="News1">
                 <br/>
                     <br/>
@@ -438,21 +466,21 @@
                 <br/>
                 <br/>
                 
-                <button id= primera onclick="myFunction1()" >  Once   </button>
-                <button id= segunda onclick="myFunction2()"> in  </button>
-                <button id= tercera onclick="myFunction3()"> ancient  </button>
-                <button id= cuarta onclick="myFunction4()"> China    </button>
-                <button id= quinta onclick="myFunction5()"> there  </button>
-                <button id= sexta onclick="myFunction6()"> lived   </button>
-                <button id= septima onclick="myFunction7()"> a </button>
-                <button id= octava onclick="myFunction8()">  princess  </button>
-                <button id= novena onclick="myFunction9()"> who   </button>
-                <button id= decima onclick="myFunction10()"> was </button>
-                <button id= xi onclick="myFunction11()"> the   </button>
-                <button id= xii onclick="myFunction12()"> fourth  </button>
-                <button id= xiii onclick="myFunction13()">daughter   </button>
-                <button id= xiv onclick="myFunction14()"> of the  </button>
-                <button id= xv onclick="myFunction15()">  emperor  </button>
+                <button id= primera onclick="myFunction1()" class="button button1" >  Once   </button>
+                <button id= segunda onclick="myFunction2()" class="button button1" > in  </button>
+                <button id= tercera onclick="myFunction3()" class="button button1" > ancient  </button>
+                <button id= cuarta onclick="myFunction4()" class="button button1" > China    </button>
+                <button id= quinta onclick="myFunction5()" class="button button1" > there  </button>
+                <button id= sexta onclick="myFunction6()" class="button button1" > lived   </button>
+                <button id= septima onclick="myFunction7()" class="button button1"> a </button>
+                <button id= octava onclick="myFunction8()" class="button button1" >  princess  </button>
+                <button id= novena onclick="myFunction9()" class="button button1" > who   </button>
+                <button id= decima onclick="myFunction10()" class="button button1" > was </button>
+                <button id= xi onclick="myFunction11()" class="button button1" > the   </button>
+                <button id= xii onclick="myFunction12()" class="button button1" > fourth  </button>
+                <button id= xiii onclick="myFunction13()" class="button button1" >daughter   </button>
+                <button id= xiv onclick="myFunction14()" class="button button1" > of the  </button>
+                <button id= xv onclick="myFunction15()" class="button button1" >  emperor.  </button>
                 
                 <!--1 TERMINA PARRAFO 1-->  
                 <!--2 INICIA PARRAFO 2-->
@@ -616,21 +644,21 @@
                     <br/>
                     <br/>
                 
-                <button id= xvi onclick="myFunction16()"> She  </button>
-                <button id= xvii onclick="myFunction17()">  was  </button>
-                <button id= xviii onclick="myFunction18()"> very   </button>
-                <button id= xix onclick="myFunction19()"> tiny.  </button>
-                <button id= xx onclick="myFunction20()"> In  fact </button>
-                <button id= xxi onclick="myFunction21()"> she </button>
-                <button id= xxii onclick="myFunction22()">  was  </button>
-                <button id= xxiii onclick="myFunction23()">  so tiny  </button>
-                <button id= xxiv onclick="myFunction24()"> her </button>
-                <button id= xxv onclick="myFunction25()">   name </button>
-                <button id= xxvi onclick="myFunction26()">  was </button>
-                <button id= xxvii onclick="myFunction27()"> Djeow Soew,   </button>
-                <button id= xxviii onclick="myFunction28()">which </button>
-                <button id= xxix onclick="myFunction29()">   means   </button>
-                <button id= xxx onclick="myFunction30()"> “the smallest one.”  </button>
+                <button id= xvi onclick="myFunction16()" class="button button1"> She  </button>
+                <button id= xvii onclick="myFunction17()" class="button button1" >  was  </button>
+                <button id= xviii onclick="myFunction18()" class="button button1" > very   </button>
+                <button id= xix onclick="myFunction19()" class="button button1" > tiny.  </button>
+                <button id= xx onclick="myFunction20()" class="button button1" > In  fact </button>
+                <button id= xxi onclick="myFunction21()" class="button button1" > she </button>
+                <button id= xxii onclick="myFunction22()" class="button button1" >  was  </button>
+                <button id= xxiii onclick="myFunction23()" class="button button1" >  so tiny  </button>
+                <button id= xxiv onclick="myFunction24()" class="button button1" > her </button>
+                <button id= xxv onclick="myFunction25()" class="button button1" >   name </button>
+                <button id= xxvi onclick="myFunction26()" class="button button1" >  was </button>
+                <button id= xxvii onclick="myFunction27()" class="button button1" > Djeow Soew,   </button>
+                <button id= xxviii onclick="myFunction28()" class="button button1" >which </button>
+                <button id= xxix onclick="myFunction29()" class="button button1" >   means   </button>
+                <button id= xxx onclick="myFunction30()" class="button button1" > “the smallest one.”  </button>
                 
                 <!--2 TERMINA PARRAFO 2-->
                 
@@ -843,26 +871,26 @@
                 
                     <br/>
                     <br/>
-                    <button id= xxxi onclick="myFunction31()"> And, </button>
-                    <button id= xxxii onclick="myFunction32()">  because   </button>
-                    <button id= xxxiii onclick="myFunction33()">she  </button>
-                    <button id= xxxiv onclick="myFunction34()"> was </button>
-                    <button id= xxxv onclick="myFunction35()">so </button>
-                    <button id= xxxvi onclick="myFunction36()"> tiny,   </button>
-                    <button id= xxxvii onclick="myFunction37()"> she   </button>
-                    <button id= xxxviii onclick="myFunction38()"> was   </button>
-                    <button id= xxxix onclick="myFunction39()"> not  </button>
-                    <button id= xl onclick="myFunction40()"> taken  </button>
-                    <button id= xli onclick="myFunction41()"> into   </button>
-                    <button id= xlii onclick="myFunction42()"> account  </button>
-                    <button id= xliii onclick="myFunction43()"> much, </button>
-                    <button id= xliv onclick="myFunction44()">   when  </button>
-                    <button id= xlv onclick="myFunction45()"> she   </button>
-                    <button id= xlvi onclick="myFunction46()">was  </button>
-                    <button id= xlvii onclick="myFunction47()"> even    </button>
-                    <button id= xlviii onclick="myFunction48()"> taken </button>
-                    <button id= xlix onclick="myFunction49()"> into  </button>
-                    <button id= l onclick="myFunction50()"> account. </button>
+                    <button id= xxxi onclick="myFunction31()" class="button button1" > And, </button>
+                    <button id= xxxii onclick="myFunction32()" class="button button1">  because   </button>
+                    <button id= xxxiii onclick="myFunction33()" class="button button1">she  </button>
+                    <button id= xxxiv onclick="myFunction34()" class="button button1"> was </button>
+                    <button id= xxxv onclick="myFunction35()" class="button button1">so </button>
+                    <button id= xxxvi onclick="myFunction36()" class="button button1"> tiny,   </button>
+                    <button id= xxxvii onclick="myFunction37()" class="button button1"> she   </button>
+                    <button id= xxxviii onclick="myFunction38()" class="button button1"> was   </button>
+                    <button id= xxxix onclick="myFunction39()" class="button button1"> not  </button>
+                    <button id= xl onclick="myFunction40()" class="button button1"> taken  </button>
+                    <button id= xli onclick="myFunction41()" class="button button1" > into   </button>
+                    <button id= xlii onclick="myFunction42()" class="button button1" > account  </button>
+                    <button id= xliii onclick="myFunction43()" class="button button1" > much, </button>
+                    <button id= xliv onclick="myFunction44()" class="button button1">   when  </button>
+                    <button id= xlv onclick="myFunction45()" class="button button1" > she   </button>
+                    <button id= xlvi onclick="myFunction46()" class="button button1" >was  </button>
+                    <button id= xlvii onclick="myFunction47()" class="button button1" > even    </button>
+                    <button id= xlviii onclick="myFunction48()" class="button button1" > taken </button>
+                    <button id= xlix onclick="myFunction49()" class="button button1" > into  </button>
+                    <button id= l onclick="myFunction50()" class="button button1" > account. </button>
                 
                 
                 <!--3 TERMINA PARRAFO 3-->
@@ -1071,25 +1099,25 @@
                 
                         <br/>
                         <br/>
-                        <button id= li onclick="myFunction51()"> Her </button>
-                        <button id= lii onclick="myFunction52()">  brothers,    </button>
-                        <button id= liii onclick="myFunction53()">who  </button>
-                        <button id= liv onclick="myFunction54()"> were   </button>
-                        <button id= lv onclick="myFunction55()">all  </button>
-                        <button id= lvi onclick="myFunction56()"> older </button>
-                        <button id= lvii onclick="myFunction57()"> and  </button>
-                        <button id= lviii onclick="myFunction58()"> bigger  </button>
-                        <button id= lix onclick="myFunction59()">and   </button>
-                        <button id= lx onclick="myFunction60()"> stronger   </button>
-                        <button id= lxi onclick="myFunction61()">than  </button>
-                        <button id= lxii onclick="myFunction62()"> she,  </button>
-                        <button id= lxiii onclick="myFunction63()">were  </button>
-                        <button id= lxiv onclick="myFunction64()">  taken </button>
-                        <button id= lxv onclick="myFunction65()"> into  </button>
-                        <button id= lxvi onclick="myFunction66()">account  </button>
-                        <button id= lxvii onclick="myFunction67()"> all  </button>
-                        <button id= lxviii onclick="myFunction68()"> the   </button>
-                        <button id= lxix onclick="myFunction69()">time.   </button>
+                        <button id= li onclick="myFunction51()" class="button button1" > Her </button>
+                        <button id= lii onclick="myFunction52()"  class="button button1" >  brothers,    </button>
+                        <button id= liii onclick="myFunction53()"  class="button button1" >who  </button>
+                        <button id= liv onclick="myFunction54()" class="button button1" > were   </button>
+                        <button id= lv onclick="myFunction55()" class="button button1"  >all  </button>
+                        <button id= lvi onclick="myFunction56()" class="button button1"  > older </button>
+                        <button id= lvii onclick="myFunction57()" class="button button1"  > and  </button>
+                        <button id= lviii onclick="myFunction58()"  class="button button1" > bigger  </button>
+                        <button id= lix onclick="myFunction59()" class="button button1"   >and   </button>
+                        <button id= lx onclick="myFunction60()" class="button button1"  > stronger   </button>
+                        <button id= lxi onclick="myFunction61()" class="button button1" >than  </button>
+                        <button id= lxii onclick="myFunction62()" class="button button1"  > she,  </button>
+                        <button id= lxiii onclick="myFunction63()" class="button button1" >were  </button>
+                        <button id= lxiv onclick="myFunction64()" class="button button1"  >  taken </button>
+                        <button id= lxv onclick="myFunction65()" class="button button1"  > into  </button>
+                        <button id= lxvi onclick="myFunction66()" class="button button1"   >account  </button>
+                        <button id= lxvii onclick="myFunction67()" class="button button1" > all  </button>
+                        <button id= lxviii onclick="myFunction68()"  class="button button1"   > the   </button>
+                        <button id= lxix onclick="myFunction69()" class="button button1"  >time.   </button>
                        
                         
                 
@@ -1238,19 +1266,19 @@
                 
                     <br/>
                     <br/>
-                    <button id= lxx onclick="myFunction70()"> And  </button>
-                    <button id= lxxi onclick="myFunction71()">they  </button>
-                    <button id= lxxii onclick="myFunction72()"> were   </button>
-                    <button id= lxxiii onclick="myFunction73()">like  </button>
-                    <button id= lxxiv onclick="myFunction74()">four  </button>
-                    <button id= lxxvi onclick="myFunction76()">rising   </button>
-                    <button id= lxxv onclick="myFunction75()"> suns  </button>
-                    <button id= lxxvii onclick="myFunction77()"> in   </button>
-                    <button id= lxxviii onclick="myFunction78()">the   </button>
-                    <button id= lxxix onclick="myFunction79()"> eyes    </button>
-                    <button id= lxxx onclick="myFunction80()"> of    </button>
-                    <button id= lxxxi onclick="myFunction81()"> their  </button>
-                    <button id= lxxxii onclick="myFunction82()"> father. </button>
+                    <button id= lxx onclick="myFunction70()" class="button button1"  > And  </button>
+                    <button id= lxxi onclick="myFunction71()" class="button button1" >they  </button>
+                    <button id= lxxii onclick="myFunction72()" class="button button1" > were   </button>
+                    <button id= lxxiii onclick="myFunction73()" class="button button1"  >like  </button>
+                    <button id= lxxiv onclick="myFunction74()" class="button button1"  >four  </button>
+                    <button id= lxxvi onclick="myFunction76()" class="button button1"  >rising   </button>
+                    <button id= lxxv onclick="myFunction75()" class="button button1"  > suns  </button>
+                    <button id= lxxvii onclick="myFunction77()" class="button button1"  > in   </button>
+                    <button id= lxxviii onclick="myFunction78()" class="button button1"  >the   </button>
+                    <button id= lxxix onclick="myFunction79()" class="button button1"  > eyes    </button>
+                    <button id= lxxx onclick="myFunction80()" class="button button1"  > of    </button>
+                    <button id= lxxxi onclick="myFunction81()" class="button button1" > their  </button>
+                    <button id= lxxxii onclick="myFunction82()" class="button button1" > father. </button>
                     <br/>
                     
                 <!--5 TERMINA PARRAFO 5-->
